@@ -339,7 +339,7 @@ $(document).ready(function(){
       var num_uploads_since = uploads_since.length;
       //If no uploads:
       if (num_uploads_since == 0) {
-        tableData[page_name].Most_Successful_Video_Views.innerHTML = "No Videos";
+        tableData[page_name].Most_Successful_Video_Views.innerHTML = 0;
         //Append Paragraph "No Videos" To div#details:
         var para = document.createElement("p");
         para.id = page_name+"_view_count";
