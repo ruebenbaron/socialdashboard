@@ -495,7 +495,7 @@ $(document).ready(function(){
   //FB.API Initialisierung:
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : '339440106419025',
+      appId      : '108370396311242',
       xfbml      : true,
       version    : 'v2.8',
       cookie     : true
